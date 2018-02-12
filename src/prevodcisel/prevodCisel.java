@@ -141,6 +141,9 @@ public class prevodCisel {
                     case 'M':
                         vysledek = 1000;
                         break;
+                    case '0':
+                        System.out.println("Ukončili jste program.");
+                        System.exit(0);
                 }
                 System.out.println("Výsledek je:" + vysledek);
             } else {
